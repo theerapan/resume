@@ -1,38 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 #section1 {
     width: 100%;
     height: 620px;
-    background-color: antiquewhite;
 }
 
 .person-img {
     width: 150px;
     height: 150px;
-/*
-    display: block;
-    margin: auto;
-*/
     margin-top: 40px;
 }
 
-.down-arrow-img {
-    width: 50px;
-    height: 50px;
-    margin-top: 200px;
+
+.col-md-3 {
+    border: 1px solid #9c9c9c;
+    height: 600px;
+}
+/*
+.col-md-9 {
+    border: 1px solid #9c9c9c;
+}
+*/
+
+.skill-line {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    background-color: crimson;
+    height: 3px;
 }
 
-h1 { margin-top: 60px; color: #525252; }
+.profile {
+    padding-top: 20px;
+    padding-left: 70px;
+}
 
-h3 { color: #525252; }
-
-/***** SECTION 2 *******/
-
-#section2 {
-    background-color: #e4ecff;
+.profile-line-big {
+    margin-top: 40px;
+    background-color: #3a9bff;
+    height: 3px;
     width: 100%;
-    height: 500px;
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.personal {
+    margin-top: 20px;
+}
+
+.personal-head-text {
+    margin-bottom: 20px;
+}
+
+.personal-education-text {
+    margin-bottom: 20px;
+}
+
+.personal-skills-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
