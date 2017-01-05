@@ -25,6 +25,14 @@ body {
 }
 */
 
+.skill-line-full {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    background-color: #cecece;
+    width: 100%;
+    height: 3px;
+}
+
 .skill-line {
     margin-top: -5px;
     margin-bottom: 15px;
