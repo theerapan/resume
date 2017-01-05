@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body { font-family: 'Nunito', sans-serif; }
+#section1 { width: 100%; height: 620px; }
+.for-margin { margin-top: 20px; }
+
+.person-img {
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    border-radius: 50%;
+    border: 6px solid #e3e3e3;
+}
+
+.social { margin-top: 50px; height: 300px; }
+
+.social-icon {
+    width: 70px;
+    height: 70px;
+    padding-left: 5px;
+}
+
+.color-fb { color: #3b5998; }
+.color-twitter { color: #1dcaff; }
+.color-mail { color: #e56864; }
+
+.social-address {
+    font-size: 18px;
+    line-height: 68px;
+    padding-left: 20px;
+}
+
+.mail-address { font-size: 16px; }
+
+.icon-row {
+    height: 90px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.icon-row:hover { background-color: #dfe3ee; }
+
+.social-link {
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.skill-line-full {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    background-color: #cecece;
+    width: 100%;
+    height: 3px;
+}
+
+.skill-line {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    background-color: crimson;
+    height: 3px;
+}
+
+.profile {
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.profile-line-big {
+    margin-top: 40px;
+    background-color: #3a9bff;
+    height: 3px;
+    width: 100%;
+}
+
+.contact { margin-top: 40px; }
+.personal { margin-top: 20px; }
+.personal-head-text { margin-bottom: 20px; }
+.personal-education-text { margin-bottom: 20px; }
+.personal-skills-text { margin-top: 20px; margin-bottom: 20px; }
