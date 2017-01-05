@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+
 body {
     font-family: 'Nunito', sans-serif;
 }
@@ -8,6 +9,10 @@ body {
     height: 620px;
 }
 
+.for-margin {
+    margin-top: 20px;
+}
+
 .person-img {
     width: 150px;
     height: 150px;
@@ -15,8 +20,8 @@ body {
 }
 
 .social {
-    margin-top: 20px;
-    border: 1px solid #cecece;
+    margin-top: 50px;
+/*    border: 1px solid #cecece;*/
     height: 300px;
 }
 
@@ -24,13 +29,28 @@ body {
     width: 70px;
     height: 70px;
     padding-left: 5px;
+}
+
+.color-fb {
     color: #3b5998;
+}
+
+.color-twitter {
+    color: #1dcaff;
+}
+
+.color-mail {
+    color: #e56864;
 }
 
 .social-address {
     font-size: 18px;
     line-height: 68px;
-    padding-left: 30px;
+    padding-left: 20px;
+}
+
+.mail-address {
+    font-size: 16px;
 }
 
 .icon-row {
